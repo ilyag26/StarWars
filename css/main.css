@@ -49,21 +49,18 @@ body{
     background-color: grey;
     padding: 1px 0;
     margin-bottom: 22px;
-    display: none;
 }
 #group_header {
     text-align: center;
     background-color: grey;
     padding: 1px 0;
     margin-bottom: 22px;
-    display: none;
 }
 #survial_header {
     text-align: center;
     background-color: darkgreen;
     padding: 1px 0;
     margin-bottom: 22px;
-    display: none;
     color:yellow;
 }
 .news_content{
