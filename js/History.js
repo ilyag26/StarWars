@@ -1,0 +1,58 @@
+function hideshow() {
+    document.getElementById("slider").style="display:none";
+    document.getElementById("slider2").style="display:none";
+    document.getElementById("slider3").style="display:none";
+    document.getElementById("slider4").style="display:none";
+    document.getElementById("other").style="display:none";
+    document.getElementById("other2").style="display:block";
+    document.getElementById("other3").style="display:none";
+    document.getElementById("other4").style="display:none";
+    document.getElementById("common_header").style="display:block";
+    document.getElementById("news_header").style="display:none";
+    document.getElementById("epic_header").style="display:none";
+    document.getElementById("group_header").style="display:none";
+    document.getElementById("survial_header").style="display:none";
+}
+function hideshow2() {
+    document.getElementById("slider2").style="display:none";
+    document.getElementById("slider").style="display:none";
+    document.getElementById("slider3").style="display:none";
+    document.getElementById("slider4").style="display:none";
+    document.getElementById("other").style="display:block";
+    document.getElementById("other2").style="display:none";
+    document.getElementById("other3").style="display:none";
+    document.getElementById("other4").style="display:none";
+    document.getElementById("news_header").style="display:none";
+    document.getElementById("epic_header").style="display:block";
+    document.getElementById("other3").style="display:none";
+    document.getElementById("group_header").style="display:none";
+    document.getElementById("survial_header").style="display:none";
+}
+function hideshow3() {
+    document.getElementById("slider2").style="display:none";
+    document.getElementById("slider").style="display:none";
+    document.getElementById("slider3").style="display:none";
+    document.getElementById("slider4").style="display:none";
+    document.getElementById("other").style="display:none";
+    document.getElementById("other2").style="display:none";
+    document.getElementById("other3").style="display:block";
+    document.getElementById("other4").style="display:none";
+    document.getElementById("news_header").style="display:none";
+    document.getElementById("epic_header").style="display:none";
+    document.getElementById("group_header").style="display:block";
+    document.getElementById("survial_header").style="display:none";
+}
+function hideshow4() {
+    document.getElementById("slider2").style="display:none";
+    document.getElementById("slider").style="display:none";
+    document.getElementById("slider3").style="display:none";
+    document.getElementById("slider4").style="display:none";
+    document.getElementById("other").style="display:none";
+    document.getElementById("other2").style="display:none";
+    document.getElementById("other3").style="display:none";
+    document.getElementById("other4").style="display:block";
+    document.getElementById("news_header").style="display:none";
+    document.getElementById("epic_header").style="display:none";
+    document.getElementById("group_header").style="display:bnone";
+    document.getElementById("survial_header").style="display:block";
+}

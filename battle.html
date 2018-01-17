@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>StarWars</title>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/History.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+        <div><img id="header_banner" src="images/header.png" alt="banner"/></div>
+    </div>
+
+        <div class="main">
+            <nav>
+              <a href="index.html">News</a>|
+              <a href="battle.html">Battlse</a>|
+              <a href="rating.html">Rating</a>
+            </nav>
+    </div>
+    <div class="container">
+        <div id="news_header">
+            <h2>History battles</h2>
+        </div >
+        <div id="epic_header">
+            <h2>Epic battles</h2>
+        </div >
+        <div id="common_header">
+            <h2>Common battles</h2>
+        </div >
+        <div id="group_header">
+            <h2>Group battles</h2>
+        </div >
+        <div id="survial_header">
+            <h2>Survial</h2>
+        </div >
+        <div class="news_header">
+            <a  href="#" id="slider" class="buttons btn btn-primary " onclick="hideshow();" style="background-color: darkgray;border: solid 1px  darkgrey">common games</a>
+            <a href="#" id="slider2" class="buttons btn btn-primary " onclick="hideshow2();" style="background-color: rebeccapurple;border: solid 1px  rebeccapurple;color:white;">Epic games</a>
+            <a href="#" id="slider3" class="buttons btn btn-primary " onclick="hideshow3();" style="background-color: blue;border: solid 1px  rebeccapurple;color:white;">Group games</a>
+            <a href="#" id="slider4" class="buttons btn btn-primary " onclick="hideshow4();" style="background-color:darkgreen;border: solid 1px  rebeccapurple;color:yellow;">Survial games</a>
+        </div>
+        <div id="other2"  style="display:none">
+            <div class="battle_content">
+                <a href="battle.html" class="delete2 btn btn-primary "> -back- </a>
+                    <h1>Lobby</h1>
+                    <div class="row">
+                        <div class="col content_epic_common">Nick-me:<span>{name}</span>; Level:<span>{level}</span>;result:<span>{battle-result}</span>;
+                        </div>
+                        <div class="content_epic_common2"><a href="" class="btn btn-danger swing">PLAY!</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="other"  style="display:none">
+            <div class="battle_content">
+                <a href="battle.html" class="delete2 btn btn-primary " > -back- </a>
+                    <h1>Lobby</h1>
+                    <div class="row">
+                        <div class="col content_epic_common">Nick-me:<span>{name}</span>; Level:<span>{level}</span>;result:<span>{battle-result}</span>;
+
+                        </div>
+                        <div class="content_epic_common2">
+                          <a href="" class="btn btn-danger swing">PLAY!</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        <div id="other3"  style="display:none">
+            <div class="battle_content">
+                <a href="battle.html" class="delete2 btn btn-primary " > -back- </a>
+                    <h1>Lobby</h1>
+                    <div class="row">
+                        <div class="col content_epic_common">Nick-me:<span>{name}</span>; Level:<span>{level}</span>;result:<span>{battle-result}</span>;
+
+                        </div>
+                        <div class="content_epic_common2">
+                          <a href="" class="btn btn-danger swing">PLAY!</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        <div id="other4"  style="display:none">
+            <div class="battle_content">
+                <a href="battle.html" class="delete2 btn btn-primary " > -back- </a>
+                    <h1>Lobby</h1>
+                    <div class="row">
+                        <div class="col content_epic_common">Nick-me:<span>{name}</span>; Level:<span>{level}</span>;result:<span>{battle-result}</span>;
+
+                        </div>
+                        <div class="content_epic_common2">
+                          <a href="" class="btn btn-danger swing">PLAY!</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+    </div>
+    </div>
+</body>
+</html>
