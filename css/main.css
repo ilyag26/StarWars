@@ -22,6 +22,9 @@ body{
 .main nav a:hover {
     color:red;
 }
+.rating{
+    margin: auto;
+}
 .gamingdiv{
     position: relative;
     width:830px;
@@ -33,7 +36,15 @@ body{
     border-radius: 100px;
     background-color:  #000;
     text-align:center; 
-
+}
+.ratingdiv{
+    position: relative;
+    width:830px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 20px;
+    text-align:center; 
 }
 .battle_content{
   width: 1100px;
@@ -99,19 +110,6 @@ body{
 		 margin-top: 22px;
 	border-radius:10px;
 }
-.news_content{
-     margin-top: 22px;
-  width: 1100px;
-  background-color: #b7b7b7;
-  border-radius: 100px;
-  padding: 20px;
-  text-align: center;
-  color: #000000;
-  font-size: 15px;
-  margin: 0 auto;
-  margin-top: 50px;
-  border-radius:10px;
-}
 .content_epic_common{
     background-color: grey;
     border-radius: 50px 0 0 50px;
@@ -132,10 +130,7 @@ body{
     font-family: cursive;
     border:0.5px solid black;
 }
-#wrapper, #header {
-    min-width: 960px;
-    max-width: 1200px;
-}
+
 #wrapper, h4{
     margin: 0 auto;
 }
@@ -150,10 +145,16 @@ body{
     background-color: #d6d8d9;
     padding: 1px 0;
     margin-bottom: 22px;
+    color:black;
 }
 .footer {
     border-top: 2px dashed;
     padding-top: 30px;
     margin-top: 30px;
+    text-align: center;
+}
+.jumbotron{
+    color:black;
+    background-color: grey;
     text-align: center;
 }
