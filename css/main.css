@@ -1,6 +1,39 @@
 body{
   background-image:url('../images/space.png');
   background-size: cover;
+  color:white;
+}
+.main nav {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main nav a {
+    color:black;
+    padding-left: 30px;
+    padding-right: 30px;
+        color:white;
+}
+
+.main nav a:hover {
+    color:red;
+}
+.gamingdiv{
+    position: relative;
+    width:830px;
+    height: 730px;
+    overflow-y: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 100px;
+    background-color:  #000;
+    text-align:center; 
+
 }
 .battle_content{
   width: 1100px;
@@ -32,10 +65,6 @@ body{
     width:820px;
     margin: 20px auto;
     background-color: #333;
-    text-after-overflow: center;
-}
-.news_header {
-    text-align: center;
 }
 #epic_header {
 	 margin-top: 22px;
@@ -43,7 +72,6 @@ body{
     background-color: #9c04ff;
     padding: 1px 0;
     margin-bottom: 22px;
-    display:none;
 	border-radius:10px;
 }
 #common_header {
@@ -55,11 +83,12 @@ body{
 }
 #group_header {
     text-align: center;
-    background-color: grey;
+    background-color: blue;
     padding: 1px 0;
     margin-bottom: 22px;
 	border-radius:10px;
 		 margin-top: 22px;
+         color:white;
 }
 #survial_header {
     text-align: center;
@@ -71,6 +100,7 @@ body{
 	border-radius:10px;
 }
 .news_content{
+     margin-top: 22px;
   width: 1100px;
   background-color: #b7b7b7;
   border-radius: 100px;
@@ -80,6 +110,7 @@ body{
   font-size: 15px;
   margin: 0 auto;
   margin-top: 50px;
+  border-radius:10px;
 }
 .content_epic_common{
     background-color: grey;
@@ -101,72 +132,28 @@ body{
     font-family: cursive;
     border:0.5px solid black;
 }
-#wrapper, #login_body, #reg_body {
-    background-color:#ffffff;
-}
-#wrapper, #header, #menu, #index_content, #footer {
+#wrapper, #header {
     min-width: 960px;
     max-width: 1200px;
 }
-#wrapper, #news_header, #rating_table_title h4, #header_banner {
+#wrapper, h4{
     margin: 0 auto;
-
 }
 #header_banner {
     height: 300px;
     width: 100%;
 }
-#menu ul li {
-    float: left;
-    text-transform: uppercase;
-    color:black;
-}
-
-#menu a a:first-child {
-    width: 32px;
-}
-
-#menu a {
-    color: #ebebeb;
-    font-size: 16px;
-    text-align: center;
-    padding: 13px 70px 15px 70px;
-    display: block;
-    text-decoration: none;
-    color:black;
-}
-
-
 #news_header {
+         margin-top: 22px;
+    border-radius:10px;
     text-align: center;
     background-color: #d6d8d9;
     padding: 1px 0;
     margin-bottom: 22px;
 }
-#footer {
-    border-top: 2px dashed #3c3c3c;
-    height: 90px;
+.footer {
+    border-top: 2px dashed;
     padding-top: 30px;
     margin-top: 30px;
     text-align: center;
-}
-.main nav {
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.main nav a {
-    text-transform: capitalize;
-    text-decoration: none;
-    color:black;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.main nav a:hover {
-    color:red;
 }
